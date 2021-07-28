@@ -3,7 +3,7 @@
     "content_scripts": [ {
         "css": [ "highlight.css" ],
         "js": [ "background.js" ],
-        "matches": [ "https://setwithfriends.com/*" ],
+        "matches": [ "https://setwithfriends.com/game/*" ],
         "run_at": "document_end"
      } ],
     "name": "Set Solver",
