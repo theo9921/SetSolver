@@ -72,15 +72,15 @@ function start(click) {
   function isDifferent(array) {
     return new Set(array).size === array.length
   }
-  
+  alert("Get ready to destroy Adryana. Press SPACEBAR to highlight a set");
   document.body.addEventListener('keydown', function (event) {
     if (document.activeElement.tagName === 'INPUT') {
       // ignore if typing in chat
       return
     }
     if (event.keyCode == 32) {
-      console.log('🤔')
       start()
     }
   })
+  
   
