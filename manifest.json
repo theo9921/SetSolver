@@ -9,6 +9,7 @@
     "name": "Set Solver",
     "description": "This extension solves Set with Friends",
     "version": "1.0",
-    "permissions": [ "https://setwithfriends.com/*" ],
+    
+    "permissions": [ "https://setwithfriends.com/game/*" ],
     "update_url": "https://clients2.google.com/service/update2/crx" 
 }
