@@ -1,6 +1,7 @@
 {
     "manifest_version": 2,
     "content_scripts": [ {
+        "css": [ "highlight.css" ],
         "js": [ "background.js" ],
         "matches": [ "https://setwithfriends.com/*" ],
         "run_at": "document_end"

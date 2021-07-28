@@ -82,9 +82,5 @@ function start(click) {
       console.log('🤔')
       start()
     }
-    if (event.keyCode == 77) {
-      console.log('🥳')
-      start(true)
-    }
   })
   
